@@ -1,0 +1,104 @@
+.boss{
+  background: url("../img/haji.jpg")
+}
+.game{
+  height: 200px;
+  width: 100%;
+  /*background-color: #6C6F9D;*/
+  color: yellow;
+}
+.header-wrapper{
+  text-align: center;
+  background-color: blue;
+  height: 300px;
+  color: red;
+  opacity: 1.2;
+}
+.header-wrapper h1{
+  font-size: 45px;
+  padding-top: 100px;
+  animation: rotateOutDownLeft;
+  animation-duration: 2s;
+  font-family: 'Ewert', cursive;
+}
+.header-wrapper h3{
+  font-size: 30px;
+    margin-top: 20px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	/*align-items: center;*/
+  background-color: #FFF;
+	display: flex;
+	font-family: 'Raleway', sans-serif;
+	flex-direction: column;
+	/*justify-content: center;*/
+	overflow: hidden;
+  color: white;
+}
+body.wrapper{
+	align-self: center;
+  background: url('../img/brain-profile.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+	flex-direction: column;
+}
+
+div.container {
+
+	align-self: center;
+
+	/*border-radius: 100%;*/
+	/*display: flex;
+	flex-direction: column;*/
+	min-height: 800px;
+	justify-content: center;
+	width: 800px;
+
+}
+
+.heading h1 {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 46px;
+  margin: 0 0 60px 0;
+  padding: 50px 0 0 0;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width: 50%;
+}
+
+a.btn {
+	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+   text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+a.btn:hover {
+	box-shadow: 0px 4px 4px rgba(34,62,66,.5);
+	/*-webkit-transition: box-shadow 1s ease;*/
+	transition: box-shadow 1s ease;
+}
+.yes{
+  text-align: center;auto;
+}
